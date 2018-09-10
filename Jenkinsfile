@@ -3,5 +3,5 @@ node {
    git url: 'https://github.com/leosilvadev/game-of-life'
 
    stage 'Build'
-   sh "./gradlew clean install"
+   sh "./gradlew clean build"
 }
